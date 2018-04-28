@@ -23,7 +23,7 @@ When someons says something like "link agi on boots" or "what are the mats for m
 | /pleaselink yell \<setting>        | _set how to respond to yell messages_ |
 | /pleaselink all \<setting>         | _set all the channel/chat options at ance_ |
 
-\<setting> can be:<br/>**off**: don't watch for link requests here<br/>**short**: say link(s) on same channel if it's 1 message long, or else whisper them<br/>**long**: say link(s) on same channel no matter how many messages it is<br/>**whisper**: whisper the link to whoever asked<br/>**show**: print the link to yourself only_
+\<setting> can be:<br/>**off**: don't watch for link requests here<br/>**short**: say link(s) on same channel if it's 1 message long, or else whisper them<br/>**long**: say link(s) on same channel no matter how many messages it is<br/>**whisper**: whisper the link to whoever asked<br/>**show**: print the link to yourself only
 
 ## Screenshot:
 ![!](https://i.imgur.com/0Sm9u9O.png)
