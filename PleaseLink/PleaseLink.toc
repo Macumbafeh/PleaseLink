@@ -1,0 +1,13 @@
+## Interface: 20400
+## Title: PleaseLink
+## Author: Pyralis
+## Version: 1.7
+## Notes: Automatically show, whisper, or say links for crafts/spells/talents when someone asks for one.
+## SavedVariablesPerCharacter: PleaseLinkSave
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+Data\CraftData.lua
+Data\SpellData.lua
+Data\TalentData.lua
+PleaseLink.lua

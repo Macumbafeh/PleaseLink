@@ -1,0 +1,36 @@
+1.7 (5/31/16):
+   * Added and changed more keyword handling things, like not using keywords from a few normal speech things like "<3" and "at once."
+
+1.6 (5/11/16):
+   * Added a suggestions option (turned on using: /pleaselink suggest on). If someone whispers you an enchantment request that has no matches (like "link stamina cloak") then it will reply with a list of most possibilities for that slot (except for weapons since there's too many).
+   * Added and changed keywords based on seeing new ways people ask for things.
+
+1.5 (4/17/16):
+   * Added a list of blacklist phrases like some boss names and locations so things like "link vashj's healing ring" will be ignored.
+
+1.4 (4/8/16):
+   * Added more keyword fixes based on seeing more terrible ways people abbreviate and misspell things.
+   * Fixed some "attack power" searches.
+
+1.3 (2/3/16):
+   * Added engineering things.
+   * Fixed a few spell names.
+   * Fixed some talent/enchant name conflicts like Vitality and Surefooted - the enchant should be given now unless they're specific like "surefooted talent" or "hunter surefooted" or similar variations.
+   * Fixed handling links as part of names like if someone says "link 10 hit [Lionseye]" with [Lionseye] being an item link.
+   * Keywords searching for just "hit" are now assumed to mean physical hit instead of matching both physical and spell hit.
+   * Some keywords were added/changed to make broad enchantment searches like "link all spell damage enchants" not show other things like potions and gems.
+   * SEARCH_MATCH_LIMIT changed to 8 so broad enchantment searches will work (like searching for all agility or spell damage enchants) - you'll have to change the maxmessages option to at least 3 if you want to be able to show all the matches for a few of these (like agility which has 8 links to show).
+
+1.2 (1/26/16):
+   * Added player spells, talents, and most TBC crafted things as full name searches (SS_Data not needed).
+   * Added special "set" major keyword to be able to search for things like "plate nature resistance set" and "tuxedo set."
+   * Added a few more keyword-based crafted items.
+   * Reduced unwanted matches by only allowing a few things to match a single minor keyword with no major keyword: "link mongoose" will work, but "link stats" won't anymore.
+
+1.1 (1/19/16):
+   * Messages similar to "what's the mats" and "show the mats" are now triggers.
+   * Requests to link a profession (like "link leatherworking") are now ignored.
+   * Specific searches are canceled if having over a certain amount of matches (5 by default set with SEARCH_MATCH_LIMIT in the .lua file). Multiple searches from the same message can still match more than that though.
+   * Some keywords were edited/added to make a few things match better.
+   * Text containing the word "quest" won't do a link search since they probably asked for a quest.
+   * If SS_Data exists, player spells and talents will be searched for before crafts. These are simple full name searches for now.
