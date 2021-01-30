@@ -7,7 +7,7 @@
 ***
 
 ## Purpose:
-When someons says something like "link agi on boots" or "what are the mats for mongoose" it will attempt to find and link what they asked for. Links can be player spells, talents, or many craft/enchanting things. Each chat type (numbered channels/group/guild/etc) has its own settings to tell how to respond or not.
+When someone says something like "link agi on boots" or "what are the mats for mongoose" it will attempt to find and link what they asked for. Links can be player spells, talents, or many craft/enchanting things. Each chat type (numbered channels/group/guild/etc) has its own settings to tell how to respond or not.
 
 | Commands | Description |
 | --- | --- |
